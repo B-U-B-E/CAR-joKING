@@ -17,28 +17,29 @@ body {
   /* justify-content: center; */  
   height: 100vh;  
 }
-.header-h1 {
-  align-self: auto;
-  border-radius: 0px;
-  background-color: transparent;
-  border: solid #fff;
-  border-width: 10px 10px 0 10px;
-}
-.header-h1:hover, btn:active{
-    text-shadow: 0px 2px 6px gold;
-    background-image: url(IMG_5601.JPG);
-    background-size: cover;
-    cursor: pointer;
-  }
-h1 {
-  font-size: 2rem;  
-  letter-spacing: -1px;  
-  text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);  
-  color: #fff;
-  padding:10px;  
-  text-align: center;
-}
-.header-h2 {  
+ div.container h1 {
+   align-self: auto;
+   border-radius: 0px;
+   background-color: transparent;
+   border: solid #fff;
+   border-width: 10px 10px 0 10px;
+   font-size: 2rem;
+   letter-spacing: -1px;
+   text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+   color: #fff;
+   padding: 10px;
+   text-align: center;
+ }
+
+ div.container h1:hover, div.container h1:active {
+   text-shadow: 0px 2px 6px gold;
+   background-image: url(IMG_5601.JPG);
+   background-size: cover;
+   cursor: pointer;
+
+ }
+
+ div.container h2  {  
   line-height: 1.6;
   font-size:1rem;
   background-color: transparent; 
@@ -54,7 +55,7 @@ h1 {
 }
 
 @media (min-width:300px){
-    .header-h2{
+  div.container h2{
         text-align: center;
         padding: 100px 0px;
     }
@@ -73,13 +74,13 @@ h1 {
 }
 
 @media (min-width:800px){
-    .uP-btn{
+  .uP-btn{
         width: 50%;        
     }
 }
 /* .Zezancija{
-    �😎🚗🌍�
-https://www.youtube.com/watch?v=gUcisIlT7sM
+    😎🚗🌍
+    https://www.youtube.com/watch?v=gUcisIlT7sM
 }
    */
 
