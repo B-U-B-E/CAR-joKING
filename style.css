@@ -82,7 +82,7 @@ h1 {
 }
    */
 
-.uP-btn:hover, uP-btn:active{
+.uP-btn:hover, .uP-btn:active{
   text-shadow: 0px 2px 6px royalblue;
   background-image: url(IMG_4748.JPG);
   background-size: cover;
