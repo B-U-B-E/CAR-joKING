@@ -47,7 +47,7 @@ body {
   padding: 5px;
   grid-row: 2;
   letter-spacing: 1px;    
-  padding:100px;  
+    
 }
 
 @media (min-width:300px){
